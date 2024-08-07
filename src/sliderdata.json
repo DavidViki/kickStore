@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "src": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2016%2F06%2Fnike-air-max-96-xx-1.jpg?cbr=1&q=90",
+        "alt": "Nike Air Max '96 shoe",
+        "h3": "Nike Air Max '96",
+        "p": "Our favorite kick of all time, now on our shelves. Starting from 169,99 €."
+    } , 
+    {
+        "id": 2,
+        "src": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2015%2F01%2Fpuma-disc-crackle-pack-part-iv-1.jpg?cbr=1&q=90",
+        "alt": "Puma Disc shoe",
+        "h3": "Puma Disc",
+        "p": "The revolutionary disc system and trinomic outsole. In Kick Lover stores for only 139,99 €."
+    },
+    {
+        "id": 3,
+        "src": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2022%2F08%2Freebok-staple-deal-lifestyle-instapump-fury-club-c-release-info-0001.jpg?cbr=1&q=90",
+        "alt": "Reebok Insta Pump shoe",
+        "h3": "Reebok Insta Pump",
+        "p": "Futuristic design, old-school love. Get yours today for 159,99 €."
+    },
+    {
+        "id": 4,
+        "src": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2017%2F01%2Fadidas-originals-gazelle-sand-1.jpg?cbr=1&q=90",
+        "alt": "Adidas Gazelle shoe",
+        "h3": "Adidas Gazelle",
+        "p": "Nothing too spectacular, but we all know why we love them. Only 79,99 €."
+    }
+]
