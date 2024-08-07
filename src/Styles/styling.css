@@ -7,6 +7,12 @@ body {
     height: 100%;
 }
 
+.women-page {
+    text-align: center;
+    padding: 20px;
+    min-height: 100vh;
+}
+
 .men-page {
     text-align: center;
     padding: 20px;
