@@ -14,6 +14,8 @@ import Puma from './Pages/Puma.jsx';
 import Reebok from './Pages/Reebok.jsx';
 import Team from './Pages/Team.jsx';
 import { Route, Routes } from "react-router-dom";
+import "./Styles/styling.css";
+
 function App() {
   return (
     <div className="App" style={{fontFamily: "Arial, sans-serif"}}>

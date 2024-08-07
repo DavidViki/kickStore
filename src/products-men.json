@@ -1,0 +1,128 @@
+[
+    {
+        "id": 1,
+        "name": "Air Max 97",
+        "price": "170€",
+        "image": "https://www.tike.rs/files/watermark/files/images/products/media/918/918890-001/images/thumbs_w/918890-001_w_800_800px.jpg.webp",
+        "brand": "Nike"
+    },
+    {
+        "id": 2,
+        "name": "Gazelle",
+        "price": "100€",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAEBGYDRSSXV8HX5lVKPJJrhxI-AHPe5ckMw&s",
+        "brand": "Adidas"
+    },
+    {
+        "id": 3,
+        "name": "Classic",
+        "price": "90€",
+        "image": "https://reebok.ph/cdn/shop/files/SS22_Classic-Leather-OG_Educate_CRM_DT.jpg?v=1693793523&width=1445",
+        "brand": "Reebok"
+    },
+    {
+        "id": 4,
+        "name": "Disc",
+        "price": "150€",
+        "image": "https://www.tike.rs/files/watermark/files/images/products/media/363/363765-02/images/thumbs_w/363765-02_w_800_800px.jpg.webp",
+        "brand": "Puma"
+    },
+    {
+        "id": 5,
+        "name": "Cortez",
+        "price": "120€",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRee_MpfgmNaRU_AjBHOgNxpfdxfSdi5wkGA&s",
+        "brand": "Nike"
+    },
+    {
+        "id": 6,
+        "name": "Ultra Boost",
+        "price": "130€",
+        "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/940481152a8c48d0a0727a27ec7db0b9_9366/Ultraboost_Light_Shoes_White_HQ6351_HM1.jpg",
+        "brand": "Adidas"
+    },
+    {
+        "id": 7,
+        "name": "Insta Pump",
+        "price": "180€",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGgldlyStPmTVgDRorlHGQ7OFDKccq98j_8g&s",
+        "brand": "Reebok"
+    },
+    {
+        "id": 8,
+        "name": "RS-X",
+        "price": "100€",
+        "image": "https://www.tike.rs/files/thumbs/files/images/products/media/369/369449-02/images/thumbs_320/369449-02_3_320px.jpg",
+        "brand": "Puma"
+    },
+    {
+        "id": 9,
+        "name": "Air Jordan 1",
+        "price": "160€",
+        "image": "https://patikebs.com/wp-content/uploads/2022/12/Nike-Air-Jordan-1-pollen.png",
+        "brand": "Nike"
+    },
+    {
+        "id": 10,
+        "name": "NMD",
+        "price": "110€",
+        "image": "https://www.tike.rs/files/watermark/files/images/products/media/DA8/DA8835/images/thumbs_w/DA8835_w_800_800px.jpg.webp",
+        "brand": "Adidas"
+    },
+    {
+        "id": 11,
+        "name": "Air Huarache",
+        "price": "160€",
+        "image": "https://i.ebayimg.com/images/g/6uwAAOSwBrNlQeaK/s-l1600.jpg",
+        "brand": "Nike"
+    },
+    {
+        "id": 12,
+        "name": "Air Max Plus",
+        "price": "190€",
+        "image": "https://patikebs.com/wp-content/uploads/2022/09/Air-max-plus.png",
+        "brand": "Nike"
+    },
+    {
+        "id": 13,
+        "name": "Yeezy",
+        "price": "230€",
+        "image": "https://n-hype.com/cdn/shop/files/AdidasYeezyBoost350V2Antlia-Non-Reflective-FV3250-N-hype-5-webp_6.jpg?v=1718961866&width=2393",
+        "brand": "Adidas"
+    },
+    {
+        "id": 14,
+        "name": "L.A. Trainer",
+        "price": "90€",
+        "image": "https://www.tike.rs/files/images/products/media/CQ2/CQ2273/images/CQ2273.jpg",
+        "brand": "Adidas"
+    },
+    {
+        "id": 15,
+        "name": "Pump TZ",
+        "price": "220€",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBxKMb657hqEEDkb82CofXwTEGfr400AjGKw&s",
+        "brand": "Reebok"
+    },
+    {
+        "id": 16,
+        "name": "Ventilator",
+        "price": "145€",
+        "image": "https://static.ftshp.digital/img/p/2/4/9/6/3/24963.jpg",
+        "brand": "Reebok"
+    },
+    {
+        "id": 17,
+        "name": "Blaze Of Glory",
+        "price": "250€",
+        "image": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2015%2F12%2Fpuma-blaze-of-glory-nyk-11.jpg?cbr=1&q=90",
+        "brand": "Puma"
+    },
+    {
+        "id": 18,
+        "name": "Caven",
+        "price": "85€",
+        "image": "https://www.sneakerhouse.eu/images/classics/10000-11000/Puma-Caven-380810-23_%5B10000%5D_480.jpg",
+        "brand": "Puma"
+    }
+]

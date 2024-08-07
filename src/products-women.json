@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "name": "Air Max 270",
+        "price": 130,
+        "image": "",
+        "brand": "Nike"
+    },
+    {
+        "id": 2,
+        "name": "Air Force 1",
+        "price": 100,
+        "image": "",
+        "brand": "Nike"
+    },
+    {
+        "id": 3,
+        "name": "Air Huarache",
+        "price": 140,
+        "image": "",
+        "brand": "Nike"
+    },
+    {
+        "id": 4,
+        "name": "Stan Smith",
+        "price": 100,
+        "image": "",
+        "brand": "Adidas"
+    },
+    {
+        "id": 5,
+        "name": "Superstar",
+        "price": ,
+        "image": "",
+        "brand": "Adidas"
+    },
+    {
+        "id": 6,
+        "name": "Falcon",
+        "price": 90,
+        "image": "",
+        "brand": "Adidas"
+    },
+    {
+        "id": 7,
+        "name": "Club C 85",
+        "price": 105,
+        "image": "",
+        "brand": "Reebok"
+    },
+    {
+        "id": 8,
+        "name": "Princess",
+        "price": 95,
+        "image": "",
+        "brand": "Reebok"
+    },
+    {
+        "id": 9,
+        "name": "Fenty",
+        "price": 115,
+        "image": "",
+        "brand": "Puma"
+    },
+    {
+        "id": 10,
+        "name": "Suede",
+        "price": 90,
+        "image": "",
+        "brand": "Puma"
+    }
+]
