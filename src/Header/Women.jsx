@@ -11,6 +11,7 @@ function Women() {
 
     return (
         <div className="women-page">
+        <h1 className="page-title">Women's kicks</h1>
             <div className="card-container">
             {sneakers.map((sneaker) => (
                 <SneakerCard

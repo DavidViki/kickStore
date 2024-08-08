@@ -17,6 +17,7 @@ function Nike() {
 
     return (
         <div className="nike-page">
+        <h1 className="page-title">Nike kicks</h1>
             <div className="card-container">
             {sneakers.map((sneaker) => (
                 <SneakerCard
