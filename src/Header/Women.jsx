@@ -1,12 +1,12 @@
 import React, { useState, useEffect }from "react";
-import SneakerCard from "../Components/SneakerCard"; //see Men.jsx
-import sneakersData from "../products-women.json"; //see Men.jsx
+import SneakerCard from "../Components/SneakerCard"; //Importing SneakerCard component
+import sneakersData from "../products-women.json"; //Importing all women's data
 
 function Women() {
     const [sneakers, setSneakers] = useState([]);
 
     useEffect(() => {
-        setSneakers(sneakersData);
+        setSneakers(sneakersData); //Passing women's data to be used in SneakerCard
     }, []);
 
     return (

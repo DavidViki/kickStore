@@ -1,12 +1,12 @@
 import React, { useEffect, useState} from "react";
-import sneakersData from "../products-kids.json";
-import SneakerCard from "../Components/SneakerCard";
+import sneakersData from "../products-kids.json"; //Importing all kids data
+import SneakerCard from "../Components/SneakerCard"; //Importing SneakerCard component
 
 function Kids() {
     const [sneakers, setSneakers] = useState([]);
 
     useEffect(() => {
-        setSneakers(sneakersData);
+        setSneakers(sneakersData); //Passing kids data to be used in SneakerCard
     }, []);
 
     return (

@@ -1,8 +1,8 @@
 import React, { useEffect, useState} from "react";
-import menData from "../../products-men.json";
-import womenData from "../../products-women.json";
-import kidsData from "../../products-kids.json";
-import SneakerCard from "../../Components/SneakerCard";
+import menData from "../../products-men.json"; //Importing all men data
+import womenData from "../../products-women.json"; //Importing all women data
+import kidsData from "../../products-kids.json"; //Importing all kids data
+import SneakerCard from "../../Components/SneakerCard"; //Importing SneakerCard component
 
 
 
@@ -10,9 +10,9 @@ function Adidas() {
     const [sneakers, setSneakers] = useState([]);
 
     useEffect(() => {
-        const combinedSneakersData = [...menData, ...womenData, ...kidsData];
-        const sneakersData = combinedSneakersData.filter((sneaker) => sneaker.brand === "Adidas")
-        setSneakers(sneakersData);
+        const combinedSneakersData = [...menData, ...womenData, ...kidsData]; //Combining all data into one object
+        const sneakersData = combinedSneakersData.filter((sneaker) => sneaker.brand === "Adidas") //Filtering combined data for Adidas
+        setSneakers(sneakersData); //Passing filtered data to be used in SneakerCard
     }, []);
 
     return (

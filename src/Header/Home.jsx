@@ -1,7 +1,7 @@
 import React from "react";
-import Slider from "../Components/Slider"; //importing Slider Component created with Bootstrap
-import sliderdata from "../sliderdata.json"; //importing data to be passed into the Slider
-import MapPin from "../Components/MapPin"; //importing MapPin Component created with leaflet
+import Slider from "../Components/Slider"; //Importing Slider Component created with Bootstrap
+import sliderdata from "../sliderdata.json"; //Importing data to be passed into the Slider
+import MapPin from "../Components/MapPin"; //Importing MapPin Component created with leaflet
 
 function Home() {
 
