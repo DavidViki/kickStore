@@ -1,8 +1,8 @@
-import React , { useEffect, useState } from "react";
-import SneakerCard from "../Components/SneakerCard";
-import sneakersData from "../products-men.json";
+import React, { useState, useEffect }from "react";
+import SneakerCard from "../Components/SneakerCard"; //see Men.jsx
+import sneakersData from "../products-women.json"; //see Men.jsx
 
-function Men() {
+function Women() {
     const [sneakers, setSneakers] = useState([]);
 
     useEffect(() => {
@@ -10,7 +10,7 @@ function Men() {
     }, []);
 
     return (
-        <div className="men-page">
+        <div className="women-page">
             <div className="card-container">
             {sneakers.map((sneaker) => (
                 <SneakerCard
@@ -20,10 +20,10 @@ function Men() {
                 image={sneaker.image}
                 brand={sneaker.brand}
                 />
-            ))}
+                ))}
             </div>
         </div>
     )
 }
 
-export default Men;
+export default Women;

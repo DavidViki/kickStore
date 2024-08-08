@@ -1,22 +1,22 @@
 import React, { useEffect, useState} from "react";
-import menData from "../products-men.json";
-import womenData from "../products-women.json";
-import kidsData from "../products-kids.json";
-import SneakerCard from "../Components/SneakerCard";
+import menData from "../../products-men.json";
+import womenData from "../../products-women.json";
+import kidsData from "../../products-kids.json";
+import SneakerCard from "../../Components/SneakerCard";
 
 
 
-function Nike() {
+function Reebok() {
     const [sneakers, setSneakers] = useState([]);
 
     useEffect(() => {
         const combinedSneakersData = [...menData, ...womenData, ...kidsData];
-        const sneakersData = combinedSneakersData.filter((sneaker) => sneaker.brand === "Nike")
+        const sneakersData = combinedSneakersData.filter((sneaker) => sneaker.brand === "Reebok")
         setSneakers(sneakersData);
     }, []);
 
     return (
-        <div className="nike-page">
+        <div className="reebok-page">
             <div className="card-container">
             {sneakers.map((sneaker) => (
                 <SneakerCard
@@ -32,4 +32,4 @@ function Nike() {
     )
 }
 
-export default Nike;
+export default Reebok;

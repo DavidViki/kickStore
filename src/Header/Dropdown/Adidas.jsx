@@ -1,8 +1,8 @@
 import React, { useEffect, useState} from "react";
-import menData from "../products-men.json";
-import womenData from "../products-women.json";
-import kidsData from "../products-kids.json";
-import SneakerCard from "../Components/SneakerCard";
+import menData from "../../products-men.json";
+import womenData from "../../products-women.json";
+import kidsData from "../../products-kids.json";
+import SneakerCard from "../../Components/SneakerCard";
 
 
 
