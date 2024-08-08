@@ -1,10 +1,10 @@
 import React from "react";
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
+import Container from 'react-bootstrap/Container'; //Importing Container component by Bootstrap
+import Nav from 'react-bootstrap/Nav'; //Importing Nav component by Bootstrap
+import Navbar from 'react-bootstrap/Navbar'; //Importing Navbar component by Bootstrap
 
 function Footer(){
-    const year = new Date().getFullYear();
+    const year = new Date().getFullYear(); //Dynamic year
 
 
     return(

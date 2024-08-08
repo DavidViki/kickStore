@@ -1,20 +1,20 @@
-import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/css/bootstrap.css'; //Importing Bootstrap styles
 import React from "react";
-import Navibar from './Components/Navibar.jsx';
-import Footer from './Components/Footer.jsx';
-import Home from './Header/Home.jsx';
-import About from './Footer/About.jsx';
-import Adidas from './Header/Dropdown/Adidas.jsx';
-import Contact from './Footer/Contact.jsx';
-import Kids from './Header/Kids.jsx';
-import Men from './Header/Men.jsx';
-import Women from './Header/Women.jsx';
-import Nike from './Header/Dropdown/Nike.jsx';
-import Puma from './Header/Dropdown/Puma.jsx';
-import Reebok from './Header/Dropdown/Reebok.jsx';
-import Team from './Footer/Team.jsx';
-import { Route, Routes } from "react-router-dom";
-import "./Styles/styling.css";
+import Navibar from './Components/Navibar.jsx'; //Importing Navibar component
+import Footer from './Components/Footer.jsx'; //Importing Footer component
+import Home from './Header/Home.jsx'; //Importing Home page
+import About from './Footer/About.jsx'; //Importing About page
+import Adidas from './Header/Dropdown/Adidas.jsx'; //Importing Adidas page
+import Contact from './Footer/Contact.jsx'; //Importing Contact page
+import Kids from './Header/Kids.jsx'; //Importing Kids page
+import Men from './Header/Men.jsx'; //Importing Men page
+import Women from './Header/Women.jsx'; //Importing Women page
+import Nike from './Header/Dropdown/Nike.jsx'; //Importing Nike page
+import Puma from './Header/Dropdown/Puma.jsx'; //Importing Puma page
+import Reebok from './Header/Dropdown/Reebok.jsx'; //Importing Reebok page
+import Team from './Footer/Team.jsx'; //Importing Team page
+import { Route, Routes } from "react-router-dom"; //Importing routing
+import "./Styles/styling.css"; //Importing global css
 
 function App() {
   return (

@@ -1,10 +1,8 @@
 import React from 'react';
-import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
-import L from 'leaflet';
-import 'leaflet/dist/leaflet.css';
+import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'; //Importing leaflet components
+import L from 'leaflet'; //Importing leaflet functionalities
+import 'leaflet/dist/leaflet.css'; //Importing styles for leaflet
 
-//Default marker icon issue
-// delete L.Icon.Default.prototype._getIconUrl;
 
 L.Icon.Default.mergeOptions({
     iconUrl: require('leaflet/dist/images/marker-icon.png'),
@@ -13,11 +11,23 @@ L.Icon.Default.mergeOptions({
 });
 
 function MapPin() {
-    const position = [44.81585, 20.460497];
+    const position = [44.81585, 20.460497]; //Coords for the pin
 
     return (
-        <div style={{height: '400px', width: '100%', margin: '0 auto', borderRadius: '15px', overflow: 'hidden', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)'}}>
-        <MapContainer center={position} zoom={13} style={{height: '100%', width: '100%'}}>
+        <div 
+        style={{
+            height: '400px', 
+            width: '100%', 
+            margin: '0 auto', 
+            borderRadius: '15px', 
+            overflow: 'hidden', 
+            boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)'
+            }}>
+        <MapContainer 
+        center={position} 
+        zoom={13} 
+        style={{height: '100%', width: '100%'}}
+        >
             <TileLayer
             url='https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
             attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
